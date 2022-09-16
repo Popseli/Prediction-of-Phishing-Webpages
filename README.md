@@ -1,2 +1,7 @@
-# Predicting_Phishing_Webpages
-This is a project that develops a binary classification model for distinguishing phishing webpages from legitimate ones using URL and webpage structure based features
+# Prediction of Phishing Webpages
+The aim of this project is to develop a binary classifier for distinguishing phishing webpages from legitimate ones using URL and webpage structure based features. Phishing webpages are webpages of websites owned by attackers for the purpose of collecting users' sensitive information such as email addresses, passwords, bank account details etc. and use it to impersonate victims in order to undertake various malicious activities including theft of money, execution of other cyberattacks and cyberespionage. Since phishing webpages highly resemble with legitimate webpages that prompt sensitive information, users find it difficult to distinguish the two, leading to most users even those with cybersecurity awareness to fall into the attacks. The significance of this project, therefore, is to build an automated ML based mechanism that can exploit small differences in the structures of the two types of webpages to automatically detect the former, thus, protecting online users from falling to phishing attacks. The ML model can be used to build an application that can be deployed as a built web browser feature or web browser plug in thus offering protection at the time user is attempting to access any webpage that prompts for sensitive information. This project was part of my PhD research work.
+
+## Objectives
+To achieve the aim stated baove, the following tasks were to be performed:
+
+
