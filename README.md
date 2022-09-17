@@ -30,6 +30,7 @@ We retrieved 12,691 phishing and 13,494 legitimate webpages that prompt sensitiv
 
 ## Key Software and Libraries Used
 * Python
+* Sklearn
 * Numpy
 * Pandas
 * MySQL
