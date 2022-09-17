@@ -49,8 +49,9 @@ We retrieved 12,691 phishing and 13,494 legitimate webpages that prompt sensitiv
 * SHAP
 
 ## Result Summary
-XGBoost was observed to outperform other algorithms across most metrics by achieving an accuracy of 98.6 %, FPR of 1.12 % and FNR of 1.72 %. After tuning its hyperparameters, the algorithm's performance was optimized to achieve an accuracy of , FPR of and FNR of 
-Below is the ROC analysis of the evaluated algorithms indicating XGBoost having the largest ROC curve area
+XGBoost was observed to outperform other algorithms across most metrics by achieving an accuracy of 98.6 %, FPR of 1.12 % and FNR of 1.72 %. After tuning its hyperparameters, the algorithm's performance was optimized to achieve an accuracy of , FPR of and FNR of .
+
+Below is the ROC analysis of the evaluated algorithms indicating XGBoost having the largest ROC curve area.
 
 ![](https://github.com/Popseli/Predicting_Phishing_Webpages/blob/main/Proj_images/ROC.png)
 
