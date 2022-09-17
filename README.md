@@ -23,7 +23,7 @@ To achieve the aim stated above, the following tasks were to be performed:
 * Model explainability analysis
 
 ## Features
-
+A total of 35 features based on URL and webpage structure, webpage contents and third party information related to a webpage are identified.
 
 ## Dataset
 We retrieved 12,691 phishing and 13,494 legitimate webpages that prompt sensitive information from PhishTank and Tranco online repositories. From each active webpage, we extracted feature values to form a dataset of 26,115 records. The records were stored in a MySQL database.
@@ -48,4 +48,4 @@ We retrieved 12,691 phishing and 13,494 legitimate webpages that prompt sensitiv
 * SHAP
 
 ## Result Summary
-
+XGBoost was observd to outperform other algorithms across most metrics by achieving an accuracy of 98.6 %, FPR of 1.12 % and FNR of 1.72 %. After tuning its hyperparameters, the algorithm's performance was optimized to achieve an accuracy of , FPR of and FNR of 
