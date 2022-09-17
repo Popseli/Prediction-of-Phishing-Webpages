@@ -16,7 +16,7 @@ To achieve the aim stated above, the following tasks were to be performed:
 * Performing data cleaning
 * Performing data exploration analysis
 * Feature correlation analysis
-* Feature selection
+* Automated feature selection
 * Model evalution
 * ROC analysis
 * Hyperparameter tuning
