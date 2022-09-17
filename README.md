@@ -28,7 +28,7 @@ A total of 35 features based on URL and webpage structure, webpage contents and 
 ## Dataset
 We retrieved 12,691 phishing and 13,494 legitimate webpages that prompt sensitive information from PhishTank and Tranco online repositories. From each active webpage, we extracted feature values to form a dataset of 26,115 records. The records were stored in a MySQL database.
 
-## Tools Used
+## Key Software and Libraries Used
 * Python
 * Numpy
 * Pandas
