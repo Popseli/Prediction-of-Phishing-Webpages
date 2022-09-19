@@ -49,7 +49,7 @@ We retrieved 12,691 phishing and 13,494 legitimate webpages that prompt sensitiv
 * SHAP
 
 ## Result Summary
-XGBoost was observed to outperform other algorithms across most metrics by achieving an accuracy of 98.6 %, FPR of 1.12 % and FNR of 1.72 %. After tuning its hyperparameters, the algorithm's performance was optimized to achieve an accuracy of , FPR of and FNR of .
+XGBoost was observed to outperform other algorithms across most metrics by achieving an accuracy of 98.59 %, FPR of 1.09 % and FNR of 1.76 %. After tuning its hyperparameters, the algorithm's performance was improved to an accuracy of 98.64 % and FPR of 1.02 %.
 
 Below is the ROC analysis of the evaluated algorithms indicating XGBoost having the largest ROC curve area.
 
