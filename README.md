@@ -1,4 +1,4 @@
-# Project Overview
+# [Project Overview](https://github.com/Popseli/Predicting_Phishing_Webpages)
 The aim of this project is to develop a binary classifier for distinguishing phishing webpages from legitimate ones using URL and webpage structure based features. Phishing webpages are webpages of websites owned by attackers for the purpose of collecting users' sensitive information such as email addresses, passwords, bank account details etc. The information is then used to impersonate victims in order to undertake various malicious activities including theft of money, execution of other cyberattacks and cyberespionage. Since phishing webpages highly resemble with legitimate webpages that prompt sensitive information, users find it difficult to distinguish the two, leading to most users even those with cybersecurity awareness to fall into the phishing attacks. The significance of this project, therefore, is to build an automated ML based mechanism that can exploit key differences in the structures of the two types of webpages to automatically detect the former, thus, protecting online users from the attacks. The ML model can be used to build an application that can be deployed as a built web browser feature or web browser plug-in to offer protection at the time user is attempting to access any webpage that prompts for sensitive information. This project was part of my PhD research work.
 
 ## Objectives
@@ -53,10 +53,10 @@ XGBoost was observed to outperform other algorithms across most metrics by achie
 
 Below is the ROC analysis of the evaluated algorithms indicating XGBoost having the largest ROC curve area.
 
-![alt text](https://github.com/Popseli/Predicting_Phishing_Webpages/blob/main/Proj_images/ROC%20Results.png)
+![](https://github.com/Popseli/Predicting_Phishing_Webpages/blob/main/Proj_images/ROC%20Results.png)
 
 The model explainability analysis using SHAP shown below indicates the ranking of features' influence on the model output thus their importance. FQDNBlacklistCounts is determined to be the most important feature among the best features whereas IPInURL to be the least one.
 
-![alt text](https://github.com/Popseli/Predicting_Phishing_Webpages/blob/main/Proj_images/SHAP%20Analysis.png)
+![](https://github.com/Popseli/Predicting_Phishing_Webpages/blob/main/Proj_images/SHAP%20Analysis.png)
 
 Github link of the dataset and codes of the project can be found [here](https://github.com/Popseli/Predicting_Phishing_Webpages)
