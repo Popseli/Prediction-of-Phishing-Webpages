@@ -1,5 +1,5 @@
 # Project Overview
-The aim of this project is to develop a binary classifier for distinguishing phishing webpages from legitimate ones using URL and webpage structure based features. Phishing webpages are webpages of websites owned by attackers for the purpose of collecting users' sensitive information such as email addresses, passwords, bank account details etc. and use it to impersonate victims in order to undertake various malicious activities including theft of money, execution of other cyberattacks and cyberespionage. Since phishing webpages highly resemble with legitimate webpages that prompt sensitive information, users find it difficult to distinguish the two, leading to most users even those with cybersecurity awareness to fall into the phishing attacks. The significance of this project, therefore, is to build an automated ML based mechanism that can exploit key differences in the structures of the two types of webpages to automatically detect the former, thus, protecting online users from the attacks. The ML model can be used to build an application that can be deployed as a built web browser feature or web browser plug in to offer protection at the time user is attempting to access any webpage that prompts for sensitive information. This project was part of my PhD research work.
+The aim of this project is to develop a binary classifier for distinguishing phishing webpages from legitimate ones using URL and webpage structure based features. Phishing webpages are webpages of websites owned by attackers for the purpose of collecting users' sensitive information such as email addresses, passwords, bank account details etc. The information is then used to impersonate victims in order to undertake various malicious activities including theft of money, execution of other cyberattacks and cyberespionage. Since phishing webpages highly resemble with legitimate webpages that prompt sensitive information, users find it difficult to distinguish the two, leading to most users even those with cybersecurity awareness to fall into the phishing attacks. The significance of this project, therefore, is to build an automated ML based mechanism that can exploit key differences in the structures of the two types of webpages to automatically detect the former, thus, protecting online users from the attacks. The ML model can be used to build an application that can be deployed as a built web browser feature or web browser plug-in to offer protection at the time user is attempting to access any webpage that prompts for sensitive information. This project was part of my PhD research work.
 
 ## Objectives
 To achieve the aim stated above, the following tasks were to be performed:
@@ -13,11 +13,11 @@ To achieve the aim stated above, the following tasks were to be performed:
 * Retrieving sets of active phishing and legitimate webpages from online repositories.
 * Creating a dataset by extracting feature values from the webpages.
 * Understanding data descriptions and statistics.
-* Performing data cleaning
-* Performing data exploration analysis
+* Data cleaning
+* Data exploration analysis
 * Feature correlation analysis
 * Automated feature selection
-* Model evalution
+* Model evaluation
 * ROC analysis
 * Hyperparameter tuning
 * Model explainability analysis
