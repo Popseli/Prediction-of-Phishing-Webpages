@@ -23,7 +23,7 @@ To achieve the aim stated above, the following tasks were to be performed:
 * Model explainability analysis
 
 ## Features
-A total of 35 features based on URL and webpage structure, webpage contents and third party information related to a webpage were identified.
+A total of 35 features based on URL and webpage structure, webpage contents and third party information related to a webpage were identified for the prediction task.
 
 ## Dataset
 We retrieved 12,691 phishing and 13,494 legitimate webpages that prompt sensitive information from PhishTank and Tranco online repositories. From each active webpage, we extracted feature values to form a dataset of 26,115 records. The records were stored in a MySQL database.
