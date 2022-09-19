@@ -53,10 +53,10 @@ XGBoost was observed to outperform other algorithms across most metrics by achie
 
 Below is the ROC analysis of the evaluated algorithms indicating XGBoost having the largest ROC curve area.
 
-![](/Proj_images/ROC%20Results.png)
+![](Proj_images/ROC%20Results.png)
 
 The model explainability analysis using SHAP shown below indicates the ranking of features' influence on the model output thus their importance. FQDNBlacklistCounts is determined to be the most important feature among the best features whereas IPInURL to be the least one.
 
-![](/Proj_images/SHAP%20Analysis.png)
+![](Proj_images/SHAP%20Analysis.png)
 
 Github link of the dataset and codes of the project can be found [here](https://github.com/Popseli/Predicting_Phishing_Webpages)
