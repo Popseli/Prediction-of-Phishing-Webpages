@@ -45,7 +45,7 @@ We retrieved 12,691 phishing and 13,494 legitimate webpages that prompt sensitiv
 * Recursive feature elimination with cross validation (RFECV)
 * Algorithms: Logistic Regression, kNN, Decision Tree, Naive Bayes, SVM, Neural Networks (MLP), Random Forest, Gradient Boosting, LightGBM, XGBoost
 * Repeated stratified cross validation
-* Random search with cross validation (RandomizedSearchCV)
+* Random search with cross validation
 * SHAP
 
 ## Result Summary
