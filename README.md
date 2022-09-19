@@ -59,4 +59,4 @@ The model explainability analysis using SHAP shown below indicates the ranking o
 
 ![](https://github.com/Popseli/Predicting_Phishing_Webpages/blob/main/Proj_images/SHAP%20Analysis.png)
 
-Github link of codes of the project can be found [here](https://github.com/Popseli/Predicting_Phishing_Webpages)
+Github link of the dataset and codes of the project can be found [here](https://github.com/Popseli/Predicting_Phishing_Webpages)
