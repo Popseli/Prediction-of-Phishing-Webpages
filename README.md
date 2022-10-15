@@ -45,7 +45,7 @@ A total of 35 features based on URL and webpage structure, webpage contents and 
 * Random search with cross validation
 * SHAP
 
-## Result Summary
+## Prediction Result Summary
 XGBoost was observed to outperform other algorithms across most metrics by achieving an accuracy of 98.59 %, FPR of 1.09 % and FNR of 1.76 %. After tuning its hyperparameters, the algorithm's performance was improved to an accuracy of 98.64 % and FPR of 1.02 %.
 
 Below is the ROC analysis of the evaluated algorithms indicating XGBoost having the largest ROC curve area.
