@@ -1,4 +1,4 @@
-# Project Overview
+## Project Overview
 This project was part of my PhD research work. The aim was to develop a binary classifier for distinguishing phishing webpages from legitimate ones using URL and webpage structure based features. Phishing webpages are webpages of websites owned by attackers for the purpose of collecting users' sensitive information such as email addresses, passwords, bank account details etc. The information is then used to impersonate victims in order to undertake various malicious activities including theft of money, execution of other cyberattacks and cyberespionage. Since phishing webpages highly resemble with legitimate webpages that prompt sensitive information, users find it difficult to distinguish the two, leading to most users even those with cybersecurity awareness to fall into the phishing attacks. The purpose of this project, therefore, is to build an automated ML based classifier that can exploit key differences in the structures of the two types of webpages to automatically detect the former, thus, protecting online users from the attacks. The classifier can be used to build an application that can be deployed as a built web browser feature or web browser plug-in to offer protection at the time user is attempting to access any webpage that prompts for sensitive information. [Here](https://github.com/Popseli/Predicting_Phishing_Webpages) is the Github link of the dataset, feature descriptions and codes of the project.
 
 ## Objectives
@@ -22,11 +22,8 @@ To achieve the aim stated above, the following tasks were to be performed:
 * Hyperparameter tuning
 * Model explainability analysis
 
-## Features
-A total of 35 features based on URL and webpage structure, webpage contents and third party information related to a webpage were identified for the prediction task.
-
 ## Dataset
-We retrieved 12,691 phishing and 13,494 legitimate webpages that prompt sensitive information from PhishTank and Tranco online repositories. From each active webpage, we extracted feature values to form a dataset of 26,115 records. The records were stored in a MySQL database.
+A total of 35 features based on URL and webpage structure, webpage contents and third party information related to a webpage were identified for the prediction task. We then retrieved 12,691 phishing and 13,494 legitimate webpages that prompt sensitive information from PhishTank and Tranco online repositories. From each active webpage, we extracted feature values to form a dataset of 26,115 records. The records were stored in a MySQL database.
 
 ## Key Software and Libraries Used
 * Python
