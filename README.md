@@ -10,9 +10,9 @@ To achieve the aim stated above, the following tasks were to be performed:
 * Performing model explainability analysis to learn the influence of each feature on the model's output.
 
 ## Tasks Performed
-* Retrieving sets of active phishing and legitimate webpages from online repositories.
-* Creating a dataset by extracting feature values from the webpages.
-* Understanding data descriptions and statistics.
+* Retrieving sets of active phishing and legitimate webpages from online repositories
+* Creating a dataset by extracting feature values from the webpages
+* Data profiling
 * Data cleaning
 * Data exploration analysis
 * Feature correlation analysis
