@@ -40,7 +40,7 @@ A total of 35 features based on URL and webpage structure, webpage contents and 
 * Seaborn
 * Category encoders
 * Recursive feature elimination with cross validation (RFECV)
-* Algorithms: Logistic Regression, kNN, Decision Tree, Naive Bayes, SVM, Neural Networks (MLP), Random Forest, Gradient Boosting, LightGBM, XGBoost
+* Algorithms compared: Logistic Regression, kNN, Decision Tree, Naive Bayes, SVM, Neural Networks (MLP), Random Forest, Gradient Boosting, LightGBM, XGBoost
 * Repeated stratified cross validation
 * Random search with cross validation
 * SHAP
