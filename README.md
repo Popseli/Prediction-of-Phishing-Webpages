@@ -42,12 +42,12 @@ A total of 35 features based on URL and webpage structure, webpage contents and 
 * SHAP
 
 ## Prediction Result Summary
-CatBoost was observed to outperform other algorithms across most metrics by achieving an accuracy of 98.59 %, FPR of 1.09 % and FNR of 1.76 %. After tuning its hyperparameters, the algorithm's performance was improved to an accuracy of 98.64 % and FPR of 1.02 %.
+CatBoost was observed to outperform other algorithms across most metrics by achieving an accuracy of 98.67 %, FPR of 0.89 % and FNR of 1.81 %. After tuning its hyperparameters, the algorithm's performance was improved to an accuracy of 98.76 % and FNR of 1.58 %.
 
 Below is the ROC analysis of the evaluated algorithms indicating CatBoost having the largest ROC curve area.
 
-![](Proj_images/ROC%20Results.png)
+![](https://github.com/Popseli/Predicting_Phishing_Webpages/blob/main/Proj_images/ROC%20Results.png)
 
 The model explainability analysis using SHAP shown below indicates the ranking of features' influence on the model output thus their importance. FQDNBlacklistCounts is determined to be the most important feature among the best features whereas IPInURL to be the least one.
 
-![](Proj_images/SHAP%20Analysis.png)
+![](https://github.com/Popseli/Predicting_Phishing_Webpages/blob/main/Proj_images/SHAP%20Analysis.png)
