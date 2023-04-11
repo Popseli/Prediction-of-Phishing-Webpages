@@ -46,7 +46,7 @@ CatBoost was observed to outperform other algorithms across most metrics by achi
 
 Below is the summary of the performance results and ROC analysis of the evaluated algorithms indicating that CatBoost is the best performer.
 
-![](https://github.com/Popseli/Predicting_Phishing_Webpages/blob/main/Proj_images/Algorithms%20Results%203.png)
+![](https://github.com/Popseli/Predicting_Phishing_Webpages/blob/main/Proj_images/Algorithms%20Results%204.png)
 
 ![](https://github.com/Popseli/Predicting_Phishing_Webpages/blob/main/Proj_images/ROC%20Results.png)
 
